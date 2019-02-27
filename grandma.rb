@@ -1,7 +1,7 @@
 def speak_to_grandma(statement)
-    if(statement != statement.upcase )
+    if statement != statement.upcase
       return "HUH?! SPEAK UP, SONNY!"
-    else
+    elsif statement == statement.upcase
       return "NO, NOT SINCE 1938!."
 end
 # Whatever you say to grandma, she should respond with
